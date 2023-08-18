@@ -367,7 +367,7 @@ class Level extends Phaser.Scene {
                 video.destroy();
 
                 if (semana_1 === 1) {
-                    semana_1_ += 1;
+                    semana_1 += 1;
                     construirTela(42);
 
                 } else if (pontos_totais >= 5) {
@@ -2079,10 +2079,10 @@ class Level extends Phaser.Scene {
 
         // Iniciar a construção da primeira tela
         //jogarDesafioRequisitosFuncionais(1);
-        iniciarJogo();
+        //iniciarJogo();
         //descobrirAtividadesQA();
         //resolverDesafioOtavio(desafio_pergunta);
-        //abrirLivroOtavio();
+        abrirLivroOtavio();
         //jogarJogoDaMemoria();
         //exibirAnimacaoFaculdade();
         //reportarBugs();
